@@ -1,0 +1,37 @@
+Status actual del proyecto
+git status
+
+Cambios que de han realizado
+git diff
+
+Añadir un archivo a git
+git add NombreArchivo
+
+Sacar elemento proxymo a subir a git
+git reset HEAD NombreArchivo
+
+borrar un archivo del repositorio
+git rm NombreArchivo
+
+cancelar el barrado de un archivo antes del commit
+git reset NombreArchivo
+git checkout NombreArchivo
+
+para dar un commit seria
+git commit
+// :wq sale y guarda vim
+
+commentario en linea del commit
+git commit -m "Comentatio en linea"
+
+revertir el ultimo commit
+git reset --soft HEAD~1
+
+repositorios remotos
+git remote
+git remote -v //ver direcciones url
+
+subir a github
+git push origin master
+Deshacer el ultimo commit dado sin borrar archivos
+git reset --soft HEAD~1 

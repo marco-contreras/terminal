@@ -1,0 +1,23 @@
+Correr server
+php artisan serce
+
+crear controlador
+php artisan make:controller NameController
+
+crear middleware
+php artisan make:middleware NameMiddleware
+
+crear migracion bd
+php artisan migrate 
+
+revertir migracion bd
+php artisan migrate:rollback
+
+refrescar migracion bd
+php artisan migrate:refresh
+
+ver rutas de nuestro proyecto
+php artisan r:l /php artisan route:list
+
+crear un modelo
+php artisan make:model Message
