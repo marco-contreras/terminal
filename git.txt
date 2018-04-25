@@ -1,3 +1,6 @@
+Clonar (Descargar) directorio
+git clone URL
+
 Status actual del proyecto
 git status
 
@@ -35,3 +38,34 @@ subir a github
 git push origin master
 Deshacer el ultimo commit dado sin borrar archivos
 git reset --soft HEAD~1 
+
+Descargar los ultimos cambios en git
+git pull origin master
+
+Ver el historial del archivo
+git log
+
+Subir todos los cambios con mensajes
+git commit -am "Cambio"
+
+Consultar las ramas 
+git branch
+
+Crear una rama
+git branch NombreRama
+
+Cambiar de rama
+git checkout NombreDeRamaAUsar
+
+Crear rama y abrirla
+git checkout -b NombreRama
+
+Mostrar cambios en grafica minimizados de todas las ramas
+git log --graph --decorate --online --all
+
+Integrar una rama
+git merge NombreRama
+
+Diferencias entre ramas o comits
+git diff rama1 rama2
+git diff commit1 commit2
