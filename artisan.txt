@@ -4,11 +4,17 @@ php artisan serce
 crear controlador
 php artisan make:controller NameController
 
+crear controlador de recursos
+php artisan make:controller NameController --resource
+
 crear middleware
 php artisan make:middleware NameMiddleware
 
-crear migracion bd
-php artisan migrate 
+crear migracion 
+php artisan make:migration NameMigration
+
+migrar a bd
+php artisan make:migration NameMigration
 
 revertir migracion bd
 php artisan migrate:rollback
