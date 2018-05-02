@@ -1,0 +1,14 @@
+Compilar webpack.mix.js
+nmp run dev
+
+Monitorear cambios en los archivo
+npm run watch
+
+Apagar el monitor
+Ctrl + c
+
+Crear archivo minimizados
+npm run production
+
+installar dependencia
+npm install jquery -save
